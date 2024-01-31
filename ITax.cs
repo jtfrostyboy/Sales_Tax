@@ -1,0 +1,5 @@
+interface ITax {
+
+    void CalculateTax();
+
+}
