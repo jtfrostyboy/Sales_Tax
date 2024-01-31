@@ -6,8 +6,8 @@ class Program
 {
     static void Main()
     {
-        
-        string filePath = "C:\\Users\\Jthom\\github\\Sales_Tax\\receipt1.txt";
+        Console.WriteLine("Please copy the path from receipt1 and paste it below");
+        string filePath = Console.ReadLine();
 
         List<Item> items = ReadInputFromFile(filePath);
 
