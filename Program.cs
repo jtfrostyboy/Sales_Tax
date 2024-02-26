@@ -6,12 +6,10 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Please copy the path from receipt1 and paste it below");
-        string filePath = Console.ReadLine();
+        string filePath = "C:\\Users\\Jthom\\github\\Sales_Tax\\receipt1.txt";
 
         List<Item> items = ReadInputFromFile(filePath);
 
-        Console.WriteLine("\nOUTPUT:");
 
         decimal totalSalesTaxes = 0;
         decimal totalSalesPrice = 0;

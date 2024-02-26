@@ -1,12 +1,12 @@
 class Item : ITax
 {
-    public string Name { get; }
-    public decimal Price { get; }
-    public bool IsImported { get; }
-    public bool IsExempt { get; }
-    public int Quantity { get; set; }
-    public decimal SalesTax { get; private set; }
-    public decimal FinalPrice { get; private set; }
+    public string Name;
+    public decimal Price;
+    public bool IsImported;
+    public bool IsExempt;
+    public int Quantity;
+    public decimal SalesTax;
+    public decimal FinalPrice;
 
     public Item(string name, decimal price, bool isImported, bool isExempt)
     {
